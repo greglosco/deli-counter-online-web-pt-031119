@@ -9,5 +9,5 @@ def line(array)
     new_array << "#{index+1}. #{name}"
     }
 end
-    puts "The line is currently: new_array"
+    puts "The line is currently: #{new_array}"
 end
