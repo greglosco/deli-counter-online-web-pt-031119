@@ -9,6 +9,6 @@ def line(array)
     array.each_with_index {|name, index|
     new_array << "#{index+1}. #{name}"
     }
-    puts "The line is currently: #{new_array}"
+    puts "The line is currently: #{new_array.join(" ")}"
 end
 end
