@@ -1,6 +1,7 @@
 require 'pry'
 
 def line(array)
+  binding.pry
   if array.size == 0
     puts "The line is currently empty."
   else 
